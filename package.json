@@ -1,0 +1,30 @@
+{
+  "name": "anniv-timeline",
+  "version": "1.0.0",
+  "private": true,
+  "keywords": [],
+  "license": "ISC",
+  "author": "https://www.jasonmischka.com",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "parcel-bundler": "^1.12.4",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "description": "Interactive timeline celebrating Scientific American 175 year history",
+  "dependencies": {
+    "gsap": "^3.4.2"
+  }
+}
